@@ -3,9 +3,8 @@ package ai
 import (
 	"context"
 	"encoding/json"
-	"math"
-	"sort"
-	"strings"
+	"regexp"
+	"fmt"
 	"sync"
 	"time"
 
